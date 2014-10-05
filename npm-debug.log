@@ -1,0 +1,325 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'hubot-sushiyuki' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose read json C:\Users\yucofuji\AppData\Roaming\npm\package.json
+5 verbose read json C:\Users\yucofuji\AppData\Roaming\npm\package.json
+6 verbose cache add [ 'hubot-sushiyuki', null ]
+7 verbose cache add name=undefined spec="hubot-sushiyuki" args=["hubot-sushiyuki",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'hubot-sushiyuki',
+8 verbose parsed url   path: 'hubot-sushiyuki',
+8 verbose parsed url   href: 'hubot-sushiyuki' }
+9 silly lockFile 0b41eb0e-hubot-sushiyuki hubot-sushiyuki
+10 verbose lock hubot-sushiyuki C:\Users\yucofuji\AppData\Roaming\npm-cache\0b41eb0e-hubot-sushiyuki.lock
+11 silly lockFile 0b41eb0e-hubot-sushiyuki hubot-sushiyuki
+12 silly lockFile 0b41eb0e-hubot-sushiyuki hubot-sushiyuki
+13 verbose addNamed [ 'hubot-sushiyuki', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 708512f5-hubot-sushiyuki hubot-sushiyuki@
+16 verbose lock hubot-sushiyuki@ C:\Users\yucofuji\AppData\Roaming\npm-cache\708512f5-hubot-sushiyuki.lock
+17 silly addNameRange { name: 'hubot-sushiyuki', range: '', hasData: false }
+18 verbose url raw hubot-sushiyuki
+19 verbose url resolving [ 'https://registry.npmjs.org/', './hubot-sushiyuki' ]
+20 verbose url resolved https://registry.npmjs.org/hubot-sushiyuki
+21 info trying registry request attempt 1 at 15:38:19
+22 verbose etag "4WUQT9ONUHLB1TDJ72FU7W9QK"
+23 http GET https://registry.npmjs.org/hubot-sushiyuki
+24 http 304 https://registry.npmjs.org/hubot-sushiyuki
+25 silly registry.get cb [ 304,
+25 silly registry.get   { date: 'Sun, 05 Oct 2014 06:38:21 GMT',
+25 silly registry.get     server: 'Apache',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'last-modified': 'Sun, 05 Oct 2014 06:38:21 GMT',
+25 silly registry.get     'cache-control': 'max-age=60',
+25 silly registry.get     etag: '"4WUQT9ONUHLB1TDJ72FU7W9QK"',
+25 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+25 silly registry.get     'x-cache': 'HIT',
+25 silly registry.get     'x-cache-hits': '1',
+25 silly registry.get     'x-timer': 'S1412491101.227976,VS0,VE116',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'content-length': '0',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 verbose etag hubot-sushiyuki from cache
+27 silly addNameRange number 2 { name: 'hubot-sushiyuki', range: '', hasData: true }
+28 silly addNameRange versions [ 'hubot-sushiyuki',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '0.0.8' ] ]
+29 verbose addNamed [ 'hubot-sushiyuki', '0.0.8' ]
+30 verbose addNamed [ '0.0.8', '0.0.8' ]
+31 silly lockFile e1938594-hubot-sushiyuki-0-0-8 hubot-sushiyuki@0.0.8
+32 verbose lock hubot-sushiyuki@0.0.8 C:\Users\yucofuji\AppData\Roaming\npm-cache\e1938594-hubot-sushiyuki-0-0-8.lock
+33 verbose read json C:\Users\yucofuji\AppData\Roaming\npm-cache\hubot-sushiyuki\0.0.8\package\package.json
+34 silly lockFile e1938594-hubot-sushiyuki-0-0-8 hubot-sushiyuki@0.0.8
+35 silly lockFile e1938594-hubot-sushiyuki-0-0-8 hubot-sushiyuki@0.0.8
+36 silly lockFile 708512f5-hubot-sushiyuki hubot-sushiyuki@
+37 silly lockFile 708512f5-hubot-sushiyuki hubot-sushiyuki@
+38 silly resolved [ { name: 'hubot-sushiyuki',
+38 silly resolved     version: '0.0.8',
+38 silly resolved     description: 'Sushiyuki meets hubot',
+38 silly resolved     main: 'index.coffee',
+38 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+38 silly resolved     repository:
+38 silly resolved      { type: 'git',
+38 silly resolved        url: 'git://github.com/naoya/hubot-sushiyuki.git' },
+38 silly resolved     keywords: [ 'hubot', 'hubot-scripts', 'sushiyuki' ],
+38 silly resolved     author: { name: 'naoya' },
+38 silly resolved     license: 'MIT',
+38 silly resolved     bugs: { url: 'https://github.com/naoya/hubot-sushiyuki/issues' },
+38 silly resolved     homepage: 'https://github.com/naoya/hubot-sushiyuki',
+38 silly resolved     dependencies: { printf: '^0.2.0', underscore: '^1.6.0' },
+38 silly resolved     readme: 'hubot-sushiyuki\n================\n\nBuild status :sushi:\n\nDescription\n-----------\n\nIncoming Sushiyuki\n\n![](http://gyazo.kaizenplatform.in/images/d6d896d45e0d01e11ef0c68599b076afb24ed200.png)\n\n## Installation\n\nAdd `hubot-sushiyuki` to your package.json, run `npm install` and add hubot-sushiyuki to `external-scripts.json`.\n\nAdd hubot-sushiyuki to your `package.json` dependencies.\n\n```\n"dependencies": {\n  "hubot-sushiyuki": "0.0.2"\n}\n```\n\nAdd `hubot-sushiyuki` to `external-scripts.json`.\n\n```\n> cat external-scripts.json\n> ["hubot-sushiyuki"]\n```\n\nUsage\n-----\n\n- `hubot sushi me <emotion>`\n- `hubot sushi list` : list up emotions\n\n|No |Image                                                                                                                 |Meaning\n|---|----------------------------------------------------------------------------------------------------------------------|-------\n|01 |![yes                   ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/01.png)|yes\n|02 |![no                    ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/02.png)|no\n|03 |![ok                    ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/03.png)|ok\n|04 |![thank you/thanks/gyoku](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/04.png)|thank you/thanks/gyoku\n|05 |![sorry                 ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/05.png)|sorry\n|06 |![sigh                  ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/06.png)|sigh\n|07 |![angry                 ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/07.png)|angry\n|08 |![no comment            ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/08.png)|no comment\n|09 |![cool                  ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/09.png)|cool\n|10 |![kappa                 ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/10.png)|kappa\n|11 |![help                  ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/11.png)|help\n|12 |![what/question         ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/12.png)|what/question\n|13 |![sleep/sleepy          ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/13.png)|sleep/sleepy\n|14 |![oh no                 ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/14.png)|oh no\n|15 |![love                  ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/15.png)|love\n|16 |![grin                  ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/16.png)|grin\n|17 |![bye                   ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/17.png)|bye\n|18 |![sneak                 ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/18.png)|sneak\n|19 |![hide                  ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/19.png)|hide\n|20 |![peel                  ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/20.png)|peel\n|21 |![hot                   ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/21.png)|hot\n|22 |![fail/dip              ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/22.png)|fail/dip\n|23 |![too much/ikura        ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/23.png)|too much/ikura\n|24 |![happy                 ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/24.png)|happy\n|25 |![smile/boom            ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/25.png)|smile/boom\n|26 |![wat/anago             ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/26.png)|wat/anago\n|27 |![tea/content/agari     ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/27.png)|tea/content/agari\n|28 |![gari/don\'t forget     ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/28.png)|gari/don\'t forget\n|29 |![wasabi/sabi           ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/29.png)|wasabi/sabi\n|30 |![come on/c\'mon/        ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/30.png)|come on/c\'mon/\n|31 |![sparkles              ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/31.png)|sparkles\n|32 |![sweat                 ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/32.png)|sweat\n|33 |![cry                   ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/33.png)|cry\n|34 |![surprised             ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/34.png)|surprised\n|35 |![idea                  ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/35.png)|idea\n|36 |![sad/sob               ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/36.png)|sad/sob\n|37 |![chat                  ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/37.png)|chat\n|38 |![phone/call            ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/38.png)|phone/call\n|39 |![hello                 ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/39.png)|hello\n|40 |![see you               ](https://raw.githubusercontent.com/naoya/hubot-sushiyuki/master/sushiyuki_images/40.png)|see you\n\n\nGet involved\n============\n\n1. fork it ( https://github.com/naoya/hubot-sushiyuki/fork )\n2. create your feature branch (`git checkout -b my-new-feature`)\n3. commit your changes (`git commit -am \'Add some feature\'`)\n4. push to the branch (`git push origin my-new-feature`)\n5. create new pull request\n\nSee Also\n=========\n\n- [寿司ゆき](http://awayuki.net/sushiyuki/)\n',
+38 silly resolved     readmeFilename: 'README.md',
+38 silly resolved     _id: 'hubot-sushiyuki@0.0.8',
+38 silly resolved     _from: 'hubot-sushiyuki@' } ]
+39 info install hubot-sushiyuki@0.0.8 into C:\Users\yucofuji\AppData\Roaming\npm
+40 info installOne hubot-sushiyuki@0.0.8
+41 verbose from cache C:\Users\yucofuji\AppData\Roaming\npm-cache\hubot-sushiyuki\0.0.8\package\package.json
+42 info C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki unbuild
+43 verbose read json C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki\package.json
+44 verbose tar unpack C:\Users\yucofuji\AppData\Roaming\npm-cache\hubot-sushiyuki\0.0.8\package.tgz
+45 silly lockFile 4c7cf9b3-npm-node-modules-hubot-sushiyuki tar://C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki
+46 verbose lock tar://C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki C:\Users\yucofuji\AppData\Roaming\npm-cache\4c7cf9b3-npm-node-modules-hubot-sushiyuki.lock
+47 silly lockFile caa86f65-ubot-sushiyuki-0-0-8-package-tgz tar://C:\Users\yucofuji\AppData\Roaming\npm-cache\hubot-sushiyuki\0.0.8\package.tgz
+48 verbose lock tar://C:\Users\yucofuji\AppData\Roaming\npm-cache\hubot-sushiyuki\0.0.8\package.tgz C:\Users\yucofuji\AppData\Roaming\npm-cache\caa86f65-ubot-sushiyuki-0-0-8-package-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+52 silly gunzTarPerm extractEntry .npmignore
+53 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+56 silly gunzTarPerm extractEntry index.coffee
+57 silly gunzTarPerm modified mode [ 'index.coffee', 438, 420 ]
+58 silly gunzTarPerm extractEntry LICENSE.md
+59 silly gunzTarPerm modified mode [ 'LICENSE.md', 438, 420 ]
+60 silly gunzTarPerm extractEntry scripts/sushiyuki.coffee
+61 silly gunzTarPerm modified mode [ 'scripts/sushiyuki.coffee', 438, 420 ]
+62 silly gunzTarPerm extractEntry sushiyuki_images/21.png
+63 silly gunzTarPerm modified mode [ 'sushiyuki_images/21.png', 438, 420 ]
+64 silly gunzTarPerm extractEntry sushiyuki_images/01.png
+65 silly gunzTarPerm modified mode [ 'sushiyuki_images/01.png', 438, 420 ]
+66 silly gunzTarPerm extractEntry sushiyuki_images/03.png
+67 silly gunzTarPerm modified mode [ 'sushiyuki_images/03.png', 438, 420 ]
+68 silly gunzTarPerm extractEntry sushiyuki_images/04.png
+69 silly gunzTarPerm modified mode [ 'sushiyuki_images/04.png', 438, 420 ]
+70 silly gunzTarPerm extractEntry sushiyuki_images/05.png
+71 silly gunzTarPerm modified mode [ 'sushiyuki_images/05.png', 438, 420 ]
+72 silly gunzTarPerm extractEntry sushiyuki_images/06.png
+73 silly gunzTarPerm modified mode [ 'sushiyuki_images/06.png', 438, 420 ]
+74 silly gunzTarPerm extractEntry sushiyuki_images/07.png
+75 silly gunzTarPerm modified mode [ 'sushiyuki_images/07.png', 438, 420 ]
+76 silly gunzTarPerm extractEntry sushiyuki_images/08.png
+77 silly gunzTarPerm modified mode [ 'sushiyuki_images/08.png', 438, 420 ]
+78 silly gunzTarPerm extractEntry sushiyuki_images/09.png
+79 silly gunzTarPerm modified mode [ 'sushiyuki_images/09.png', 438, 420 ]
+80 silly gunzTarPerm extractEntry sushiyuki_images/10.png
+81 silly gunzTarPerm modified mode [ 'sushiyuki_images/10.png', 438, 420 ]
+82 silly gunzTarPerm extractEntry sushiyuki_images/11.png
+83 silly gunzTarPerm modified mode [ 'sushiyuki_images/11.png', 438, 420 ]
+84 silly gunzTarPerm extractEntry sushiyuki_images/12.png
+85 silly gunzTarPerm modified mode [ 'sushiyuki_images/12.png', 438, 420 ]
+86 silly gunzTarPerm extractEntry sushiyuki_images/13.png
+87 silly gunzTarPerm modified mode [ 'sushiyuki_images/13.png', 438, 420 ]
+88 silly gunzTarPerm extractEntry sushiyuki_images/14.png
+89 silly gunzTarPerm modified mode [ 'sushiyuki_images/14.png', 438, 420 ]
+90 silly gunzTarPerm extractEntry sushiyuki_images/15.png
+91 silly gunzTarPerm modified mode [ 'sushiyuki_images/15.png', 438, 420 ]
+92 silly gunzTarPerm extractEntry sushiyuki_images/16.png
+93 silly gunzTarPerm modified mode [ 'sushiyuki_images/16.png', 438, 420 ]
+94 silly gunzTarPerm extractEntry sushiyuki_images/17.png
+95 silly gunzTarPerm modified mode [ 'sushiyuki_images/17.png', 438, 420 ]
+96 silly gunzTarPerm extractEntry sushiyuki_images/18.png
+97 silly gunzTarPerm modified mode [ 'sushiyuki_images/18.png', 438, 420 ]
+98 silly gunzTarPerm extractEntry sushiyuki_images/19.png
+99 silly gunzTarPerm modified mode [ 'sushiyuki_images/19.png', 438, 420 ]
+100 silly gunzTarPerm extractEntry sushiyuki_images/20.png
+101 silly gunzTarPerm modified mode [ 'sushiyuki_images/20.png', 438, 420 ]
+102 silly gunzTarPerm extractEntry sushiyuki_images/02.png
+103 silly gunzTarPerm modified mode [ 'sushiyuki_images/02.png', 438, 420 ]
+104 silly gunzTarPerm extractEntry sushiyuki_images/22.png
+105 silly gunzTarPerm modified mode [ 'sushiyuki_images/22.png', 438, 420 ]
+106 silly gunzTarPerm extractEntry sushiyuki_images/23.png
+107 silly gunzTarPerm modified mode [ 'sushiyuki_images/23.png', 438, 420 ]
+108 silly gunzTarPerm extractEntry sushiyuki_images/24.png
+109 silly gunzTarPerm modified mode [ 'sushiyuki_images/24.png', 438, 420 ]
+110 silly gunzTarPerm extractEntry sushiyuki_images/25.png
+111 silly gunzTarPerm modified mode [ 'sushiyuki_images/25.png', 438, 420 ]
+112 silly gunzTarPerm extractEntry sushiyuki_images/26.png
+113 silly gunzTarPerm modified mode [ 'sushiyuki_images/26.png', 438, 420 ]
+114 silly gunzTarPerm extractEntry sushiyuki_images/27.png
+115 silly gunzTarPerm modified mode [ 'sushiyuki_images/27.png', 438, 420 ]
+116 silly gunzTarPerm extractEntry sushiyuki_images/28.png
+117 silly gunzTarPerm modified mode [ 'sushiyuki_images/28.png', 438, 420 ]
+118 silly gunzTarPerm extractEntry sushiyuki_images/29.png
+119 silly gunzTarPerm modified mode [ 'sushiyuki_images/29.png', 438, 420 ]
+120 silly gunzTarPerm extractEntry sushiyuki_images/30.png
+121 silly gunzTarPerm modified mode [ 'sushiyuki_images/30.png', 438, 420 ]
+122 silly gunzTarPerm extractEntry sushiyuki_images/31.png
+123 silly gunzTarPerm modified mode [ 'sushiyuki_images/31.png', 438, 420 ]
+124 silly gunzTarPerm extractEntry sushiyuki_images/32.png
+125 silly gunzTarPerm modified mode [ 'sushiyuki_images/32.png', 438, 420 ]
+126 silly gunzTarPerm extractEntry sushiyuki_images/33.png
+127 silly gunzTarPerm modified mode [ 'sushiyuki_images/33.png', 438, 420 ]
+128 silly gunzTarPerm extractEntry sushiyuki_images/34.png
+129 silly gunzTarPerm modified mode [ 'sushiyuki_images/34.png', 438, 420 ]
+130 silly gunzTarPerm extractEntry sushiyuki_images/35.png
+131 silly gunzTarPerm modified mode [ 'sushiyuki_images/35.png', 438, 420 ]
+132 silly gunzTarPerm extractEntry sushiyuki_images/36.png
+133 silly gunzTarPerm modified mode [ 'sushiyuki_images/36.png', 438, 420 ]
+134 silly gunzTarPerm extractEntry sushiyuki_images/37.png
+135 silly gunzTarPerm modified mode [ 'sushiyuki_images/37.png', 438, 420 ]
+136 silly gunzTarPerm extractEntry sushiyuki_images/38.png
+137 silly gunzTarPerm modified mode [ 'sushiyuki_images/38.png', 438, 420 ]
+138 silly gunzTarPerm extractEntry sushiyuki_images/39.png
+139 silly gunzTarPerm modified mode [ 'sushiyuki_images/39.png', 438, 420 ]
+140 silly gunzTarPerm extractEntry sushiyuki_images/40.png
+141 silly gunzTarPerm modified mode [ 'sushiyuki_images/40.png', 438, 420 ]
+142 verbose read json C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki\package.json
+143 silly lockFile 4c7cf9b3-npm-node-modules-hubot-sushiyuki tar://C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki
+144 silly lockFile 4c7cf9b3-npm-node-modules-hubot-sushiyuki tar://C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki
+145 silly lockFile caa86f65-ubot-sushiyuki-0-0-8-package-tgz tar://C:\Users\yucofuji\AppData\Roaming\npm-cache\hubot-sushiyuki\0.0.8\package.tgz
+146 silly lockFile caa86f65-ubot-sushiyuki-0-0-8-package-tgz tar://C:\Users\yucofuji\AppData\Roaming\npm-cache\hubot-sushiyuki\0.0.8\package.tgz
+147 info preinstall hubot-sushiyuki@0.0.8
+148 verbose from cache C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki\package.json
+149 verbose readDependencies using package.json deps
+150 verbose from cache C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki\package.json
+151 verbose readDependencies using package.json deps
+152 verbose cache add [ 'printf@^0.2.0', null ]
+153 verbose cache add name=undefined spec="printf@^0.2.0" args=["printf@^0.2.0",null]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: 'printf@^0.2.0',
+154 verbose parsed url   path: 'printf@^0.2.0',
+154 verbose parsed url   href: 'printf@^0.2.0' }
+155 verbose cache add name="printf" spec="^0.2.0" args=["printf","^0.2.0"]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: '^0.2.0',
+156 verbose parsed url   path: '^0.2.0',
+156 verbose parsed url   href: '^0.2.0' }
+157 verbose addNamed [ 'printf', '^0.2.0' ]
+158 verbose addNamed [ null, null ]
+159 silly lockFile 90b0ed56-printf-0-2-0 printf@^0.2.0
+160 verbose lock printf@^0.2.0 C:\Users\yucofuji\AppData\Roaming\npm-cache\90b0ed56-printf-0-2-0.lock
+161 verbose cache add [ 'underscore@^1.6.0', null ]
+162 verbose cache add name=undefined spec="underscore@^1.6.0" args=["underscore@^1.6.0",null]
+163 verbose parsed url { protocol: null,
+163 verbose parsed url   slashes: null,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: null,
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: null,
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: 'underscore@^1.6.0',
+163 verbose parsed url   path: 'underscore@^1.6.0',
+163 verbose parsed url   href: 'underscore@^1.6.0' }
+164 verbose cache add name="underscore" spec="^1.6.0" args=["underscore","^1.6.0"]
+165 verbose parsed url { protocol: null,
+165 verbose parsed url   slashes: null,
+165 verbose parsed url   auth: null,
+165 verbose parsed url   host: null,
+165 verbose parsed url   port: null,
+165 verbose parsed url   hostname: null,
+165 verbose parsed url   hash: null,
+165 verbose parsed url   search: null,
+165 verbose parsed url   query: null,
+165 verbose parsed url   pathname: '^1.6.0',
+165 verbose parsed url   path: '^1.6.0',
+165 verbose parsed url   href: '^1.6.0' }
+166 verbose addNamed [ 'underscore', '^1.6.0' ]
+167 verbose addNamed [ null, null ]
+168 silly lockFile 523107c6-underscore-1-6-0 underscore@^1.6.0
+169 verbose lock underscore@^1.6.0 C:\Users\yucofuji\AppData\Roaming\npm-cache\523107c6-underscore-1-6-0.lock
+170 info addNameTag [ 'printf', '^0.2.0' ]
+171 info addNameTag [ 'underscore', '^1.6.0' ]
+172 verbose url raw printf
+173 verbose url resolving [ 'https://registry.npmjs.org/', './printf' ]
+174 verbose url resolved https://registry.npmjs.org/printf
+175 info trying registry request attempt 1 at 15:38:20
+176 verbose etag "6U5UHB6MLQ0XKSR44FHRPQHWJ"
+177 http GET https://registry.npmjs.org/printf
+178 verbose url raw underscore
+179 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+180 verbose url resolved https://registry.npmjs.org/underscore
+181 info trying registry request attempt 1 at 15:38:20
+182 verbose etag "10CE221QV8ZQ7WEIE7RTGTE5V"
+183 http GET https://registry.npmjs.org/underscore
+184 http 304 https://registry.npmjs.org/underscore
+185 silly registry.get cb [ 304,
+185 silly registry.get   { date: 'Sun, 05 Oct 2014 06:38:21 GMT',
+185 silly registry.get     server: 'Apache',
+185 silly registry.get     via: '1.1 varnish',
+185 silly registry.get     'last-modified': 'Sun, 05 Oct 2014 06:32:42 GMT',
+185 silly registry.get     'cache-control': 'max-age=60',
+185 silly registry.get     etag: '"10CE221QV8ZQ7WEIE7RTGTE5V"',
+185 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+185 silly registry.get     'x-cache': 'HIT',
+185 silly registry.get     'x-cache-hits': '18',
+185 silly registry.get     'x-timer': 'S1412491101.814066,VS0,VE0',
+185 silly registry.get     vary: 'Accept',
+185 silly registry.get     'content-length': '0',
+185 silly registry.get     'keep-alive': 'timeout=10, max=50',
+185 silly registry.get     connection: 'Keep-Alive' } ]
+186 verbose etag underscore from cache
+187 silly lockFile 523107c6-underscore-1-6-0 underscore@^1.6.0
+188 silly lockFile 523107c6-underscore-1-6-0 underscore@^1.6.0
+189 verbose about to build C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki
+190 info C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki unbuild
+191 verbose from cache C:\Users\yucofuji\AppData\Roaming\npm\node_modules\hubot-sushiyuki\package.json
+192 info preuninstall hubot-sushiyuki@0.0.8
+193 info uninstall hubot-sushiyuki@0.0.8
+194 verbose true,C:\Users\yucofuji\AppData\Roaming\npm\node_modules,C:\Users\yucofuji\AppData\Roaming\npm\node_modules unbuild hubot-sushiyuki@0.0.8
+195 info postuninstall hubot-sushiyuki@0.0.8
+196 error Error: No compatible version found: underscore@'^1.6.0'
+196 error Valid install targets:
+196 error ["1.0.3","1.0.4","1.1.0","1.1.1","1.1.2","1.1.3","1.1.4","1.1.5","1.1.6","1.1.7","1.2.0","1.2.1","1.2.2","1.2.3","1.2.4","1.3.0","1.3.1","1.3.2","1.3.3","1.4.0","1.4.1","1.4.2","1.4.3","1.4.4","1.5.0","1.5.1","1.5.2","1.6.0","1.7.0"]
+196 error     at installTargetsError (c:\Program Files\nodejs\node_modules\npm\lib\cache.js:719:10)
+196 error     at c:\Program Files\nodejs\node_modules\npm\lib\cache.js:641:10
+196 error     at saved (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:138:7)
+196 error     at Object.oncomplete (fs.js:107:15)
+197 error If you need help, you may report this log at:
+197 error     <http://github.com/isaacs/npm/issues>
+197 error or email it to:
+197 error     <npm-@googlegroups.com>
+198 error System Windows_NT 6.2.9200
+199 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "hubot-sushiyuki"
+200 error cwd c:\Users\yucofuji\chofubot
+201 error node -v v0.10.12
+202 error npm -v 1.2.32
+203 verbose exit [ 1, true ]
