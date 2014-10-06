@@ -15,7 +15,9 @@ module.exports = (robot) ->
      'http://thumbnail.image.rakuten.co.jp/@0_mall/t-time/cabinet/new_rms2/teijitaishakyoko_tm.jpg?_ex=200x200&s=2&r=1'
      'http://cdn-ak.f.st-hatena.com/images/fotolife/p/perosatoimo/20140427/20140427201255.png'
   ]
-  new cron '0 0 * * * *', () =>
+  cronTest = new cron ('0 30 18 * * 1-5', () =>
       say = random sayArr
       robot.send {room: "#general"}, say
       , null, true, "Asia/Tokyo"
+  )
+  cronTest.start()
