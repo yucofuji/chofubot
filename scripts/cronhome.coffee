@@ -6,7 +6,7 @@ random = require('hubot').Response::random
   
 module.exports = (robot) ->
    
-  new cron '0 10 20 * * 1-5', () ->
+  new cron '0 0 21 * * 1-5', () ->
     say = 'Go Home!' + random [
       'http://cdn-ak.f.st-hatena.com/images/fotolife/p/perosatoimo/20140426/20140426210534.jpg'
       'http://cdn.mkimg.carview.co.jp/minkara/userstorage/000/013/462/720/5541fe566e.jpg'
@@ -15,5 +15,4 @@ module.exports = (robot) ->
       'http://cdn-ak.f.st-hatena.com/images/fotolife/p/perosatoimo/20140427/20140427201255.png'
      ]
      user = {room: '#general'}
-     robot.send user, say 
-   , null, true
+     robot.send user, say , null, true
